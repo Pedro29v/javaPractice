@@ -3,9 +3,12 @@ class holaMundo {
 
     public static void main(String arg[]){
 
-        int age = 31;
+        int cantidad = 5+2;
+        int precio = 10;
+        precio = 5;
+        int precioFinal = cantidad * precio;
+        precioFinal += 10;
 
-        System.out.println("Hello World!");
-        System.out.print("My name is Pedro and I´m " + age + " years old");
+        System.out.println(precioFinal);
     }
 }
